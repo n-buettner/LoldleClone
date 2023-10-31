@@ -1,0 +1,56 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #3e3e3e;
+  color: white;
+}
+
+.mainButton {
+    color: white;
+    background-color: #1d2227;
+    margin: 0.5rem 0 0.5rem 0;
+    border-color: cadetblue;
+}
+
+.mainButton:hover {
+    color: orange;
+}
+
+.footer {
+    color: white !important;
+}
+
+.answerHeader {
+    flex-wrap: wrap;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    flex-basis: calc(12.5% - 1rem);
+    color: white;
+    background-color: #1d2227;
+    margin: 0 0.5rem 1rem 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.answerBox {
+    flex-wrap: wrap;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    flex-basis: calc(12.5% - 1rem);
+    color: white;
+    background-color: #1d2227;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}

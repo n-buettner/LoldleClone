@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    Layout = "_Layout";
+}
+
+<div class="container-fluid">
+    <div class="text-center">
+        <a id="classicButton" class="btn btn-lg mainButton" asp-page="/Classic/Home" data-page="Classic"><i class="bi bi-question-circle"></i> Classic</a>
+    </div>
+    <div class="text-center">
+        <a id="quoteButton" class="btn btn-lg mainButton" asp-page="/Quote/Home" data-page="Quote"><i class="bi bi-chat-quote"></i> Quote</a>
+    </div>
+    <div class="text-center">
+        <a id="abilityButton" class="btn btn-lg mainButton" asp-page="/Ability/Home" data-page="Ability"><i class="bi bi-fire"></i> Ability</a>
+    </div>
+</div>
